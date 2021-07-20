@@ -11,7 +11,9 @@
    
 - English & German translation
         
-- If you have Orchard mod enabled you have extras, but its not a dependencie
+- If you have [Orchard](https://foundation.mod.io/orchard) mod enabled you have extras, but its not a dependencie
 - Tweaked Northbury, Myddle & Davenport just a little to make it more balanced
+
+- Please refer to the [mod.io](https://foundation.mod.io/new-traders-and-exchange-post) page
  
-- Check the screenshot to see their tradegoodsyou!
+- Check the screenshots [here](https://github.com/ShadowDuke/Foundation-New-Traders/wiki) to see their tradegoods
