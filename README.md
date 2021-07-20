@@ -2,12 +2,12 @@
 
 ## Content
 
-- 3 new Traders
+- 3 new Trading Posts
    - Yorkshire
    - Northumberland
    - Sussex
 
-- 1 new Trading Post
+- 1 new Exchange Post
    
 - English & German translation
         
