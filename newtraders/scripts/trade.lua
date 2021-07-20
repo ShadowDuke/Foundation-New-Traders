@@ -71,7 +71,7 @@ newtraders:register({
 		{ ResourceMaxAmount = { Resource = "BOAR", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 20 } },
 		{ ResourceMaxAmount = { Resource = "MARBLE", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 8 } },
 		{ ResourceMaxAmount = { Resource = "BV1_MEAT", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 15 } }, 
-		{ ResourceMaxAmount = { Resource = "MEAL", Quantity = 50 }, ReplenishingAmount = 20, UnitPrice = { Resource = "GOLD_COINS", Quantity = 60 } },
+		{ ResourceMaxAmount = { Resource = "MEAL", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "GOLD_COINS", Quantity = 60 } },
 	},
     Allegiance = "LABOUR"
 })
@@ -120,14 +120,16 @@ newtraders:register({
     },
 	ResourceTradingReplenishDelay = 0.5,
     BuyingResourceList = {
-		{ ResourceMaxAmount = { Resource = "WOOD", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "STONE", Quantity = 1 } },
-		{ ResourceMaxAmount = { Resource = "WHEAT", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "WOOL", Quantity = 2 } },
-		{ ResourceMaxAmount = { Resource = "RESOURCE_FEED", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "RESOURCE_DUNG", Quantity = 1 } },		
+		{ ResourceMaxAmount = { Resource = "WOOD", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "STONE", Quantity = 1 } },
+		{ ResourceMaxAmount = { Resource = "WHEAT", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "WOOL", Quantity = 2 } },
+		{ ResourceMaxAmount = { Resource = "RESOURCE_FEED", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "RESOURCE_DUNG", Quantity = 1 } },
+		{ ResourceMaxAmount = { Resource = "RESOURCE_VEGETABLE", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "GOLD_COINS", Quantity = 4 } },
+		{ ResourceMaxAmount = { Resource = "RESOURCE_VEGETABLE_RAW", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "GOLD_COINS", Quantity = 1 } },	
 	},
     SellingResourceList={
-		{ ResourceMaxAmount = { Resource = "WOOD", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "STONE", Quantity = 1 } },
-		{ ResourceMaxAmount = { Resource = "WHEAT", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "WOOL", Quantity = 2 } },
-		{ ResourceMaxAmount = { Resource = "RESOURCE_FEED", Quantity = 50 }, ReplenishingAmount = 50, UnitPrice = { Resource = "RESOURCE_DUNG", Quantity = 1 } },
+		{ ResourceMaxAmount = { Resource = "WOOD", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "STONE", Quantity = 1 } },
+		{ ResourceMaxAmount = { Resource = "WHEAT", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "WOOL", Quantity = 2 } },
+		{ ResourceMaxAmount = { Resource = "RESOURCE_FEED", Quantity = 75 }, ReplenishingAmount = 50, UnitPrice = { Resource = "RESOURCE_DUNG", Quantity = 1 } },
 	},
 	Allegiance = "LABOUR"
 })

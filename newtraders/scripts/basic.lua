@@ -51,7 +51,6 @@ newtraders:override({
 newtraders:override({
 	Id = "VILLAGE_DAVENPORT",
 	BuyingResourceList = {
-		{ ResourceMaxAmount = { Resource = "RESOURCE_VEGETABLE", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 4 } },
 		{ ResourceMaxAmount = { Resource = "FISH", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 5 } },
 		{ ResourceMaxAmount = { Resource = "CLOTHES", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 10 } },
 		{ ResourceMaxAmount = { Resource = "TOOL", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 10 } },
