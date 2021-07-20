@@ -1,0 +1,30 @@
+{
+    "Name": "New Traders",
+    "Author": "Revan",
+    "Description": "3 new Village Ttraders & 1 Exchange Post",
+    "Version": "1.0.0",
+	
+	"AdditionalLanguageList": [
+		{
+			"Name": "German",
+			"Code": "de"
+		}
+	],
+
+	"Dependencies": [
+		{
+			"Id": "76daffe0-725f-4dac-b1b5-de331dfca67a",
+			"Name": "Common Resources"
+		},
+		{
+			"Id": "fe9d3810-8afc-40e5-9fc9-bdbd3421e8cb",
+			"Name": "Vegetable and Poultry Farms"
+		},
+		{
+			"Id": "debb69c1-eb38-4183-9739-fbafa47568b4",
+			"Name": "Livestock Farms"
+		}
+	]
+
+}
+
