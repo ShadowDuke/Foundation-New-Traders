@@ -11,7 +11,7 @@
    
 - English & German translation
         
-- If you have [Orchard](https://foundation.mod.io/orchard) mod enabled you have extras, but its not a dependencie
+- If you have Orchard, Livestock Farms and/or Vegetable and Poultry Farms mod enabled you have extras, but its not a dependencie
 - Tweaked Northbury, Myddle & Davenport just a little to make it more balanced
 
 - Please refer to the [mod.io](https://foundation.mod.io/new-traders-and-exchange-post) page
