@@ -7,8 +7,12 @@ newtraders:dofile("scripts/basic.lua")
 -- Basic Materials: Add if present -------------------------------------------------------------------------------------
  if (foundation.isModLoaded("f252f14d-ca1d-4d02-97ca-46581d4b567d")) then
  	newtraders:dofile("scripts/cinder.lua")
-end	
+end
 
- if (foundation.isModLoaded("76daffe0-725f-4dac-b1b5-de331dfca67a")) then
- 	newtraders:dofile("scripts/exchange.lua")
+if (foundation.isModLoaded("fe9d3810-8afc-40e5-9fc9-bdbd3421e8cb")) then
+ 	newtraders:dofile("scripts/chicken.lua")
+end
+
+ if (foundation.isModLoaded("debb69c1-eb38-4183-9739-fbafa47568b4")) then
+ 	newtraders:dofile("scripts/meat.lua")
 end	

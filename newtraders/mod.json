@@ -2,7 +2,7 @@
     "Name": "New Traders",
     "Author": "Revan",
     "Description": "3 new Village Ttraders & 1 Exchange Post",
-    "Version": "1.0.0",
+    "Version": "1.0.4",
 	
 	"AdditionalLanguageList": [
 		{
@@ -17,12 +17,8 @@
 			"Name": "Common Resources"
 		},
 		{
-			"Id": "fe9d3810-8afc-40e5-9fc9-bdbd3421e8cb",
-			"Name": "Vegetable and Poultry Farms"
-		},
-		{
-			"Id": "debb69c1-eb38-4183-9739-fbafa47568b4",
-			"Name": "Livestock Farms"
+			"Id": "4a8d3ff2-60af-4c75-8950-33e990975862",
+			"Name": "Furniture"
 		}
 	]
 
