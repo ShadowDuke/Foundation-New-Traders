@@ -2,7 +2,7 @@
     "Name": "New Traders",
     "Author": "Revan",
     "Description": "3 new Village Ttraders & 1 Exchange Post",
-    "Version": "1.0.4",
+    "Version": "1.0.6",
 	
 	"AdditionalLanguageList": [
 		{
@@ -15,10 +15,6 @@
 		{
 			"Id": "76daffe0-725f-4dac-b1b5-de331dfca67a",
 			"Name": "Common Resources"
-		},
-		{
-			"Id": "4a8d3ff2-60af-4c75-8950-33e990975862",
-			"Name": "Furniture"
 		}
 	]
 

@@ -4,8 +4,12 @@ local newtraders = ...
 newtraders:override({
 	Id = "SPEAR",
 	IsTradable = true,
-	DisplayInInventory = true
-})
+	DisplayInInventory = true,
+	ResourceTypeList = {
+	Action = "APPEND",
+	"RESOURCE"
+}
+}) 
 
 
 
@@ -36,8 +40,7 @@ newtraders:register({
 	},
     SellingResourceList={
 		{ ResourceMaxAmount = { Resource = "HOP", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 4 } }, 
-		{ ResourceMaxAmount = { Resource = "BEER", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 20 } }, 
-		{ ResourceMaxAmount = { Resource = "RESOURCE_FURNITURE", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 15 } },   
+		{ ResourceMaxAmount = { Resource = "BEER", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 20 } },    
 		{ ResourceMaxAmount = { Resource = "SCULPTURE", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 200 } },
 		{ ResourceMaxAmount = { Resource = "MILK", Quantity = 100 }, ReplenishingAmount = 75, UnitPrice = { Resource = "GOLD_COINS", Quantity = 4 } },
 	},
@@ -60,8 +63,7 @@ newtraders:register({
 		{ ResourceMaxAmount = { Resource = "GLASS", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 25 } }, 
 		{ ResourceMaxAmount = { Resource = "BEER", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 10 } }, 
 		{ ResourceMaxAmount = { Resource = "SPEAR", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 60 } }, 
-		{ ResourceMaxAmount = { Resource = "CHEESE", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 7 } },
-		{ ResourceMaxAmount = { Resource = "RESOURCE_FURNITURE", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 7 } },   
+		{ ResourceMaxAmount = { Resource = "CHEESE", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 7 } },   
 		{ ResourceMaxAmount = { Resource = "GEMS", Quantity = 50 }, ReplenishingAmount = 25, UnitPrice = { Resource = "GOLD_COINS", Quantity = 70 } }, 
 	},
     SellingResourceList={
